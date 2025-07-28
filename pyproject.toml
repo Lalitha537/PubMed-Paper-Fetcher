@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pubmed-paper-fetcher"
+version = "0.1.0"
+description = "Fetch research papers with pharma/biotech authors from PubMed"
+authors = ["Sri lalitha <thirumalanadhunilalitha@gmail.com>"]
+packages = [{include = "pubmed_paper_fetcher", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32"
+beautifulsoup4 = "^4.12"
+typer = {extras = ["all"], version = "^0.12"}
+rich = "^13.7"
+lxml = "^6.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
+mypy = "^1.10"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_paper_fetcher.cli:get"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
