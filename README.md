@@ -146,7 +146,7 @@ MIT License. See `LICENSE` file for details.
 ## 📣 Author
 
 Developed by Sri Lalitha  
-GitHub: https://github.com/Lalitha537/fetch-research-papers-using-user-specified-query.git
+GitHub: https://github.com/Lalitha537/PubMed-Paper-Fetcher
 
 ---
 
