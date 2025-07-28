@@ -23,7 +23,7 @@ A Python command-line tool to fetch research papers from PubMed based on a query
 ## 🧪 Example
 
 ```bash
-poetry run get-papers-list "machine learning cancer" --file results.csv --debug
+poetry run python -m pubmed_paper_fetcher.cli "machine learning cancer" --file resul.csv --debug
 ```
 
 ---
@@ -145,8 +145,8 @@ MIT License. See `LICENSE` file for details.
 
 ## 📣 Author
 
-Developed by [Your Name]  
-GitHub: [https://github.com/your-username](https://github.com/your-username)
+Developed by Sri Lalitha  
+GitHub: https://github.com/Lalitha537/fetch-research-papers-using-user-specified-query.git
 
 ---
 
